@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  background-image: url(images/todo.jpg);
+  background-size: cover;
+}
+
+.container {
+  background-color: #4472ca;
+  margin-top: 10px;
+}
+
+.card-img-top {
+  margin-top: 5px;
+}
+
+.label {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  color: #001523;
+}
+
+.input {
+  height: 45px;
+  width: 100%;
+  font-weight: bold;
+  font-family: cursive;
+  color: black;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.last-div {
+  background-color: #036666;
+  color: #99e2b4;
+  width: 25rem;
+}
+
+/* li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+btn {
+  position: absolute;
+  display: inline-block;
+} */
